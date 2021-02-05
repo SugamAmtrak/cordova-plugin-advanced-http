@@ -35,7 +35,8 @@ class CordovaServerTrust implements Runnable {
     this.activity = activity;
     this.tlsConfiguration = configContainer;
     this.callbackContext = callbackContext;
-
+  }
+  
   @Override
   public void run() {
     try {
